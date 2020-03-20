@@ -6,17 +6,18 @@
 #property copyright "Copyright 2020, Jonathan Pereira"
 #property link      "https://www.mql5.com/pt/users/14134597"
 #define SCRIPT_VERSION  "1.00"
+
+#include "..\Include\newBarDetector.mqh"
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
-datetime time[];
+CNewBar *bar=new CNewBar();
 void OnStart()
   {
    while(!IsStopped())
      {
-      if(CopyTime(Symbol(), Period(), 0, 1, time) < 1)
-         Print("Erro ao recuperar timeCurrent");
-      Print(time[0]);
+      if(bar.IsNewBar())
+         Print("nova barra");
       Sleep(10000);
      }
 

@@ -7,11 +7,11 @@
 #property link      "https://www.mql5.com/pt/users/14134597"
 #property version   "1.00"
 
-#include "..\Include\CBarDetector.mqh"
+#include "..\Include\newBarDetector.mqh"
 //+------------------------------------------------------------------+
 //|                     inicio EA                                    |
 //+------------------------------------------------------------------+
-CBarDetector *bar=new CBarDetector();
+CNewBar *bar=new CNewBar();
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
