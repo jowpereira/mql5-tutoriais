@@ -1,11 +1,11 @@
 //+------------------------------------------------------------------+
-//|                                                          OOP.mq5 |
+//|                                                exemplo-oop-1.mq5 |
 //|                                 Copyright 2017, Jonathan Pereira |
 //|                          https://www.mql5.com/pt/users/14134597  |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2017, Jonathan Pereira"
 #property link      "https://www.mql5.com/pt/users/14134597"
-#define SCRIPT_VERSION  "1.01"
+#define SCRIPT_VERSION  "1.02"
 //+------------------------------------------------------------------+
 //|            Estrutura de dados                                    |
 //+------------------------------------------------------------------+

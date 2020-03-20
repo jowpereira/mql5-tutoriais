@@ -1,13 +1,13 @@
 //+------------------------------------------------------------------+
-//|                                                       newBar.mq5 |
+//|                                         expertNewBarDetector.mq5 |
 //|                               Copyright 2020, Lethan Consultoria |
 //|                          https://www.mql5.com/pt/users/14134597  |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2020, Lethan Consultoria"
 #property link      "https://www.mql5.com/pt/users/14134597"
-#property version   "1.00"
+#property version   "1.03"
 
-#include "..\Include\newBarDetector.mqh"
+#include "..\Include\newBar.mqh"
 //+------------------------------------------------------------------+
 //|                     inicio EA                                    |
 //+------------------------------------------------------------------+

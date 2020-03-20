@@ -1,11 +1,11 @@
 //+------------------------------------------------------------------+
-//|                                                        teste.mq5 |
+//|                                                exemplo-oop-3.mq5 |
 //|                               Copyright 2017, Lethan Consultoria |
 //|                          https://www.mql5.com/pt/users/14134597  |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2017, Lethan Consultoria"
 #property link      "https://www.mql5.com/pt/users/14134597"
-#property version   "1.00"
+#property version   "1.01"
 //+------------------------------------------------------------------+
 //| Script program start function                                    |
 //+------------------------------------------------------------------+

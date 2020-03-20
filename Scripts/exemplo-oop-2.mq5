@@ -1,11 +1,11 @@
 //+------------------------------------------------------------------+
-//|                                                  accountInfo.mq5 |
+//|                                                exemplo-oop-2.mq5 |
 //|                                 Copyright 2017, Jonathan Pereira |
 //|                          https://www.mql5.com/pt/users/14134597  |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2017, Jonathan Pereira"
 #property link      "https://www.mql5.com/pt/users/14134597"
-#define SCRIPT_VERSION  "1.02"
+#define SCRIPT_VERSION  "1.03"
 //---
 class CDemo
   {

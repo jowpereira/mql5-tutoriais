@@ -1,15 +1,16 @@
 //+------------------------------------------------------------------+
-//|                                                      CNewBar.mq5 |
+//|                                                       newBar.mq5 |
 //|                               Copyright 2020, Lethan Consultoria |
 //|                          https://www.mql5.com/pt/users/14134597  |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2020, Lethan Consultoria"
 #property link      "https://www.mql5.com/pt/users/14134597"
-#property version   "1.00"
+#property version   "1.01"
 //Desing Class detects new bar
 #include <Object.mqh>
-
-
+//+------------------------------------------------------------------+
+//| New bar detector                                                 |
+//+------------------------------------------------------------------+
 class CNewBar : public CObject
   {
 private:

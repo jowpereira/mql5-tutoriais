@@ -1,13 +1,13 @@
 //+------------------------------------------------------------------+
-//|                                                currentMinute.mq5 |
+//|                                         scriptNewBarDetector.mq5 |
 //|                                 Copyright 2020, Jonathan Pereira |
 //|                          https://www.mql5.com/pt/users/14134597  |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2020, Jonathan Pereira"
 #property link      "https://www.mql5.com/pt/users/14134597"
-#define SCRIPT_VERSION  "1.00"
+#define SCRIPT_VERSION  "1.01"
 
-#include "..\Include\newBarDetector.mqh"
+#include "..\Include\newBar.mqh"
 //+------------------------------------------------------------------+
 //|                                                                  |
 //+------------------------------------------------------------------+
