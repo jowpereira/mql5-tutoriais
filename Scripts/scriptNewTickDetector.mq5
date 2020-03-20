@@ -18,10 +18,8 @@ void OnStart()
    while(!IsStopped())
      {
       if(tick.IsNewTick())
-      {
-        i += 1;
-         Print(i);
-     }}
+         Print("Novo evento de tick");
+     }
 
   }
 //+------------------------------------------------------------------+
