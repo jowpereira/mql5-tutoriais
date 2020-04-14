@@ -105,6 +105,8 @@ void CTraillingCuston::Run(void)
          }
         else
          {
+          if(m_trailing_stop==0 && m_trailing_step==0)
+            break;
           if(m_position.PositionType()==POSITION_TYPE_BUY)
             if(m_position.PriceCurrent()-m_position.PriceOpen()>m_trailing_stop+m_trailing_step)
               if(m_position.StopLoss()<m_position.PriceCurrent()-(m_trailing_stop+m_trailing_step))
