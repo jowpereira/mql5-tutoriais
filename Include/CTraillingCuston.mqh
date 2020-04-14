@@ -3,7 +3,7 @@
 //|                                      Copyright 2017,Lethan Corp. |
 //|                           https://www.mql5.com/pt/users/14134597 |
 //+------------------------------------------------------------------+
-#property copyright "Copyright 2020,Lethan Corp."
+#property copyright "Copyright 2017,Lethan Corp."
 #property link      "https://www.mql5.com/pt/users/14134597"
 #property version   "1.02"
 
