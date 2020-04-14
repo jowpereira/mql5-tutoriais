@@ -18,7 +18,6 @@ void OnStart()
      {
       if(bar.IsNewBar())
          Print("nova barra");
-      Sleep(10000);
      }
 
   }
