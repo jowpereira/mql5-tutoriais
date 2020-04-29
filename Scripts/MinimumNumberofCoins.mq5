@@ -19,7 +19,7 @@
 
 namespace EpsilonGreedy
 {
-int notes[] = { 1, 2, 5, 10, 20, 50, 100};
+int notes[] = { 1, 2, 5, 10, 20 };
 
 // Driver program
 void findMin(int V)
