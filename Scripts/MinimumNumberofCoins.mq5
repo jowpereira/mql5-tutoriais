@@ -22,7 +22,7 @@ namespace EpsilonGreedy
 int notes[] = { 1, 2, 5, 10, 20 };
 
 // Driver program
-void findMin(int V)
+void findMin(int p)
  {
 // Initialize result
   CArrayList<int> coins;
@@ -31,9 +31,9 @@ void findMin(int V)
   for(int i=(sizeof(notes)/sizeof(notes[0]))-1; i >= 0; i--)
    {
     // Find notesminations
-    while(V >= notes[i])
+    while(p >= notes[i])
      {
-      V -= notes[i];
+      p -= notes[i];
       coins.Add(notes[i]);
      }
    }
