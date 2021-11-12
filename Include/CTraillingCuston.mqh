@@ -100,7 +100,7 @@ void CTraillingCuston::Run(void)
            {
             m_trade.PositionModify(m_position.Ticket()
                                    ,NormalizePrice(m_position.PriceOpen()+PriceStep()*m_stop_loss)
-                                   ,NormalizePrice(m_position.PriceOpen()-PriceStep()*m_stop_loss));
+                                   ,NormalizePrice(m_position.PriceOpen()-PriceStep()*m_take_profit));
            }
          }
         else
